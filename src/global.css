@@ -1,0 +1,111 @@
+:root {
+    --color-primary: #0000ff;
+}
+
+main {
+}
+
+body {
+    font-family: Nunito, sans-serif;
+    /*background: #FFDC00;*/
+
+    max-width: 30em;
+}
+
+b {
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+nav a {
+    color: black;
+}
+
+.logo {
+    font-weight: 800;
+    color: grey;
+}
+
+h6 {
+    color: grey;
+}
+
+button, input {
+    margin: 0;
+}
+
+input[type=text],
+input[type=password] {
+    box-sizing: border-box;
+}
+
+button {
+    font-weight: 800;
+}
+
+button.primary {
+    background: black;
+    color: white;
+}
+
+hr {
+    border: #efefef 1px solid;
+    width: 100%;
+}
+
+.area {
+    padding: 0.5rem;
+    border: grey 1px solid;
+    border-radius: 8px;
+}
+
+.card {
+    padding: 1rem;
+    border: black 4px solid;
+
+    box-shadow: 0 2px 0 black;
+    border-radius: 8px;
+}
+
+h1 {
+    overflow: hidden;
+    text-align: center;
+}
+
+.hor-div {
+    display: flex;
+    flex-direction: row;
+    color: darkgray;
+}
+
+.hor-div:before, .hor-div:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid darkgray;
+    margin: auto;
+}
+
+.hor-div:before {
+    margin-right: 10px
+}
+
+.hor-div:after {
+    margin-left: 10px
+}
+.grayText {
+    color: gray;
+}
+.redText {
+    color: #EE5A24;
+}
+
+.greenText {
+    color: #009432;
+}
